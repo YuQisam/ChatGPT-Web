@@ -58,23 +58,29 @@ watch(
       <div class="space-y-4">
         <h2 class="text-xl font-bold text-center">
           关注公众号
-          <a href="assets/qrcode.jpg" target="_blank">
-            <img src="assets/qrcode.jpg" alt="二维码">
+          <a href="assets/qrcode.jpg" target="_blank" rel="noopener noreferrer">
+            <img
+              src="assets/qrcode.jpg" alt="二维码"
+              onclick="window.open('assets/qrcode.jpg', '_blank', 'width=500,height=500')"
+            >
           </a>
         </h2>
         <hr>
         <p>
           您还不是VIP，每天只能咨询5次，
-          <a href="assets/qrcode.jpg" target="_blank">
-            <img src="assets/qrcode.jpg" alt="二维码">
+          <a href="assets/qrcode.jpg" target="_blank" rel="noopener noreferrer">
+            <img
+              src="assets/qrcode.jpg" alt="二维码"
+              onclick="window.open('assets/qrcode.jpg', '_blank', 'width=500,height=500')"
+            >
           </a>
           如有问题联系客服微信：yu936851182
         </p>
         <hr>
         <!-- <p>ID：关注公号</p>
-        <p>当天已咨询次数：0</p>
-        <p>历史总咨询次数：100</p>
-        <p>VIP到期时间：2023-04-10 00:00:00</p> -->
+          <p>当天已咨询次数：0</p>
+          <p>历史总咨询次数：100</p>
+          <p>VIP到期时间：2023-04-10 00:00:00</p> -->
       </div>
     </NCard>
   </NModal>
