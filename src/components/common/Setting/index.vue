@@ -57,21 +57,24 @@ watch(
     <NCard>
       <div class="space-y-4">
         <h2 class="text-xl font-bold text-center">
-          用户信息
-          <a class="text-blue-600" href="https://github.com/YuQisam/chatgpt-web" target="_blank">注册</a> ｜
-          <a class="text-blue-600" href="https://github.com/YuQisam/chatgpt-web" target="_blank">登录</a>
+          关注公众号
+          <a href="assets/qrcode_for_gh_816c44abf10b_258的副本.jpg" target="_blank">
+            <img src="assets/qrcode_for_gh_816c44abf10b_258的副本.jpg" alt="二维码">
+          </a>
         </h2>
         <hr>
         <p>
-          您还不是VIP，每天只能咨询5次，专线VIP服务
-          <a class="text-blue-600" href="https://github.com/YuQisam/chatgpt-web" target="_blank">升级</a>
+          您还不是VIP，每天只能咨询5次，
+          <a href="assets/qrcode_for_gh_816c44abf10b_258的副本.jpg" target="_blank">
+            <img src="assets/qrcode_for_gh_816c44abf10b_258的副本.jpg" alt="二维码">
+          </a>
           如有问题联系客服微信：yu936851182
         </p>
         <hr>
-        <p>ID：yuqi1234</p>
+        <!-- <p>ID：关注公号</p>
         <p>当天已咨询次数：0</p>
         <p>历史总咨询次数：100</p>
-        <p>VIP到期时间：2023-04-10 00:00:00</p>
+        <p>VIP到期时间：2023-04-10 00:00:00</p> -->
       </div>
     </NCard>
   </NModal>
