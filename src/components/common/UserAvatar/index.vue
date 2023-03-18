@@ -8,9 +8,9 @@ import { GithubSite } from '@/components/custom'
       <img class="object-cover" src="@/assets/avatar.jpg" alt="avatar">
     </div>
     <div class="ml-2">
-      <h2 class="font-bold text-md">
+      <!-- <h2 class="font-bold text-md">
         YuQi
-      </h2>
+      </h2> -->
       <p class="text-xs text-gray-500">
         <GithubSite />
       </p>
