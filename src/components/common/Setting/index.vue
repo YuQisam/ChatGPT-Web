@@ -58,15 +58,15 @@ watch(
       <div class="space-y-4">
         <h2 class="text-xl font-bold text-center">
           关注公众号
-          <a href="assets/qrcode_for_gh_816c44abf10b_258的副本.jpg" target="_blank">
-            <img src="assets/qrcode_for_gh_816c44abf10b_258的副本.jpg" alt="二维码">
+          <a href="assets/qrcode.jpg" target="_blank">
+            <img src="assets/qrcode.jpg" alt="二维码">
           </a>
         </h2>
         <hr>
         <p>
           您还不是VIP，每天只能咨询5次，
-          <a href="assets/qrcode_for_gh_816c44abf10b_258的副本.jpg" target="_blank">
-            <img src="assets/qrcode_for_gh_816c44abf10b_258的副本.jpg" alt="二维码">
+          <a href="assets/qrcode.jpg" target="_blank">
+            <img src="assets/qrcode.jpg" alt="二维码">
           </a>
           如有问题联系客服微信：yu936851182
         </p>
