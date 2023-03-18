@@ -1,7 +1,6 @@
 <script setup lang='ts'>
 import { computed, ref, watch } from 'vue'
 import { NCard, NModal } from 'naive-ui'
-import pkg from '../../../../package.json'
 import { fetchChatConfig } from '@/api'
 
 interface Props {
@@ -58,19 +57,21 @@ watch(
     <NCard>
       <div class="space-y-4">
         <h2 class="text-xl font-bold text-center">
-          Version - {{ pkg.version }}
+          用户信息
+          <a class="text-blue-600" href="https://github.com/YuQisam/chatgpt-web" target="_blank">注册</a> ｜
+          <a class="text-blue-600" href="https://github.com/YuQisam/chatgpt-web" target="_blank">登录</a>
         </h2>
         <hr>
         <p>
-          此项目开源于
-          <a class="text-blue-600" href="https://github.com/Chanzhaoyu/chatgpt-web" target="_blank">Github</a>
-          如果你觉得此项目对你有帮助，请帮我点个 Star，谢谢！
+          您还不是VIP，每天只能咨询5次，专线VIP服务
+          <a class="text-blue-600" href="https://github.com/YuQisam/chatgpt-web" target="_blank">升级</a>
+          如有问题联系客服微信：yu936851182
         </p>
         <hr>
-        <p>API方式：{{ config?.apiModel ?? '-' }}</p>
-        <p>反向代理：{{ config?.reverseProxy ?? '-' }}</p>
-        <p>超时时间：{{ config?.timeoutMs ?? '-' }}</p>
-        <p>Socks代理：{{ config?.socksProxy ?? '-' }}</p>
+        <p>ID：yuqi1234</p>
+        <p>当天已咨询次数：0</p>
+        <p>历史总咨询次数：100</p>
+        <p>VIP到期时间：2023-04-10 00:00:00</p>
       </div>
     </NCard>
   </NModal>

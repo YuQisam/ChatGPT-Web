@@ -60,7 +60,7 @@ watch(
       <main class="flex flex-col flex-1 min-h-0">
         <div class="p-4">
           <NButton dashed block @click="handleAdd">
-            New chat
+            新建聊天
           </NButton>
         </div>
         <div class="flex-1 min-h-0 pb-4 overflow-hidden">
