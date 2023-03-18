@@ -53,29 +53,19 @@ watch(
 </script>
 
 <template>
-  <NModal v-model:show="show" style="width: 80%; max-width: 460px;">
+  <NModal v-model:show="show" style="width: 80%; max-width: 350px;">
     <NCard>
       <div class="space-y-4">
         <h2 class="text-xl font-bold text-center">
           关注公众号
-          <a href="@/assets/qrcode.jpg" target="_blank" rel="noopener noreferrer">
-            <img
-              src="@/assets/qrcode.jpg" alt="二维码"
-              onclick="window.open('@/assets/qrcode.jpg', '_blank', 'width=500,height=500')"
-            >
-          </a>
+          <img src="@/assets/qrcode.jpg" alt="二维码" style="width: 300px; height: 300px;">
         </h2>
         <hr>
-        <p>
-          您还不是VIP，每天只能咨询5次，
-          <a href="@/assets/qrcode.jpg" target="_blank" rel="noopener noreferrer">
-            <img
-              src="@/assets/qrcode.jpg" alt="二维码"
-              onclick="window.open('@/assets/qrcode.jpg', '_blank', 'width=500,height=500')"
-            >
-          </a>
-          如有问题联系客服微信：yu936851182
-        </p>
+
+        <h2 class="text-xl font-bold text-center">
+          chatgpt微信交流群
+          <img src="@/assets/wechat.jpg" alt="二维码" style="width: 300px; height: 300px;">
+        </h2>
         <hr>
         <!-- <p>ID：关注公号</p>
           <p>当天已咨询次数：0</p>
