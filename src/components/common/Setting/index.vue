@@ -58,20 +58,20 @@ watch(
       <div class="space-y-4">
         <h2 class="text-xl font-bold text-center">
           关注公众号
-          <a href="assets/qrcode.jpg" target="_blank" rel="noopener noreferrer">
+          <a href="@/assets/qrcode.jpg" target="_blank" rel="noopener noreferrer">
             <img
-              src="assets/qrcode.jpg" alt="二维码"
-              onclick="window.open('assets/qrcode.jpg', '_blank', 'width=500,height=500')"
+              src="@/assets/qrcode.jpg" alt="二维码"
+              onclick="window.open('@/assets/qrcode.jpg', '_blank', 'width=500,height=500')"
             >
           </a>
         </h2>
         <hr>
         <p>
           您还不是VIP，每天只能咨询5次，
-          <a href="assets/qrcode.jpg" target="_blank" rel="noopener noreferrer">
+          <a href="@/assets/qrcode.jpg" target="_blank" rel="noopener noreferrer">
             <img
-              src="assets/qrcode.jpg" alt="二维码"
-              onclick="window.open('assets/qrcode.jpg', '_blank', 'width=500,height=500')"
+              src="@/assets/qrcode.jpg" alt="二维码"
+              onclick="window.open('@/assets/qrcode.jpg', '_blank', 'width=500,height=500')"
             >
           </a>
           如有问题联系客服微信：yu936851182
